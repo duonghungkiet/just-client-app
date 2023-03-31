@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js,vue,ts}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+      }
+    },
   },
   plugins: [],
 }
